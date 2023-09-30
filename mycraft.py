@@ -1,5 +1,7 @@
 from direct.showbase.ShowBase import ShowBase
 from mycraftmanager import Mapmanager
+from mapgenerator import generate
+generate()
 
 class Game(ShowBase):
     def __init__(self):
